@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_inicio" />
+    </group>
+
+    <item android:title="Entrenamiento">
+        <menu>
+            <item
+                android:id="@+id/nav_rutina"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_rutina" />
+            <item
+                android:id="@+id/nav_mientrenamiento"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_mientrenamiento" />
+        </menu>
+    </item>
+
+    <item android:title="Nutricion">
+        <menu>
+            <item
+                android:id="@+id/nav_dieta"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_dieta" />
+            <item
+                android:id="@+id/nav_minutricion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_minutricion" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_salir" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.fitnessapp.ui.home.HomeFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_rutina"
+        android:name="com.example.fitnessapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_rutina"
+        tools:layout="@layout/fragment_rutina" />
+
+    <fragment
+        android:id="@+id/nav_mientrenamiento"
+        android:name="com.example.fitnessapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_mientrenamiento"
+        tools:layout="@layout/fragment_mientrenamiento" />
+
+    <fragment
+        android:id="@+id/nav_dieta"
+        android:name="com.example.fitnessapp.ui.tools.ToolsFragment"
+        android:label="@string/menu_dieta"
+        tools:layout="@layout/fragment_dieta" />
+
+    <fragment
+        android:id="@+id/nav_minutricion"
+        android:name="com.example.fitnessapp.ui.share.ShareFragment"
+        android:label="@string/menu_minutricion"
+        tools:layout="@layout/fragment_minutricion" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.fitnessapp.ui.send.SendFragment"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>
